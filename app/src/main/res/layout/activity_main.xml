@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mwp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#293868"
+        app:titleTextColor="@color/white" />
+    <ImageButton
+        android:id="@+id/foodImgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/buttonmain"
+        android:layout_margin="8dp"
+        android:src="@drawable/yycklr" />
+    <ImageButton
+        android:id="@+id/sportImgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/buttonmain"
+        android:layout_margin="8dp"
+        android:src="@drawable/sprakt"/>
+    <ImageButton
+        android:id="@+id/recordImgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/buttonmain"
+        android:layout_margin="8dp"
+        android:src="@drawable/kytlr"/>
+    <Button
+        android:id="@+id/hspl"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:text="Vücut Kitle İndeksi Hesapla"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="5dp"
+        android:background="#F2C0C3"/>
+
+</LinearLayout>

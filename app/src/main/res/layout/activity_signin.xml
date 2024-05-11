@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/gwp"
+    tools:context=".SigninActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/iconimg"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ftic" />
+
+    <TextView
+        android:id="@+id/fittrak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:text="FitTrack"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#293868"
+        android:background="#8FD0D2"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@+id/fittrak"
+        android:layout_marginVertical="5dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_style_box"
+        android:textColor="@color/black"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:layout_below="@+id/emailtext"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/edit_style_box"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordtext"
+        android:text="Giriş Yap"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:text="Kayıt Ol"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:layout_marginVertical="10dp" />
+
+
+</RelativeLayout>

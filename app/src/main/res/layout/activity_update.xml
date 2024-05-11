@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/p1"
+    tools:context=".SigninActivity">
+    
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/iconimg"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ftic" />
+
+    <TextView
+        android:id="@+id/fittrak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:text="FitTrack"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#2E3E62"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sonuç:"
+        android:layout_below="@+id/fittrak"
+        android:layout_marginVertical="5dp"
+        android:inputType="text"
+        android:background="#0DBD4747"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#F8F1F1"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/userheightxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Boyunuz"
+        android:layout_below="@+id/sonuc"
+        android:layout_marginVertical="5dp"
+        android:inputType="text"
+        android:background="@drawable/edit_style_box"
+        android:textColor="@color/black"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/userweighttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kilonuz"
+        android:layout_below="@+id/userheightxt"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/edit_style_box"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userweighttxt"
+        android:text="Hesapla"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button"
+        android:textColor="#F8F4F4" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:text="Geri Dön"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#DA6666"
+        android:background="@drawable/button"
+        android:layout_marginVertical="10dp" />
+
+
+</RelativeLayout>
