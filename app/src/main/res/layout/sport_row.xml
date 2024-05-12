@@ -12,12 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#D5D0D0"
+        android:background="#FFFFFF"
         android:padding="5dp">
-
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_gravity="center"
             android:src="@drawable/sp"
             android:layout_margin="10dp"/>
@@ -26,27 +25,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:gravity="center"
-            android:padding="5dp">
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/sporname"
                 android:layout_width="wrap_content"
                 android:textColor="@color/black"
-                android:text="Spor Adı"
-                android:textSize="18sp"
+                android:text="Spor Adı  "
+                android:padding="10dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif"
                 android:layout_height="wrap_content"/>
-
-            <TextView
-                android:id="@+id/sporcalori"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif"
-                android:text="Spor kalori"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:text="Kalorisi:"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/sporcalori"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Spor kalori"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
         </LinearLayout>
+
 
     </LinearLayout>
 

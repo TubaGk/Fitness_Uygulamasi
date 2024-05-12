@@ -6,12 +6,14 @@
     app:contentPadding="5dp"
     app:cardCornerRadius="8dp"
     app:cardElevation="2dp"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:background="@color/white"
         android:padding="5dp">
 
         <TextView
@@ -19,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="17sp"
+            android:textColor="@color/black"
             android:text=""/>
 
         <LinearLayout
@@ -32,7 +35,7 @@
                 android:id="@+id/yiyecek"
                 android:layout_width="wrap_content"
                 android:textColor="@color/black"
-                android:text="Yiyecek Kalori="
+                android:text="Alınan Kalori: "
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif"
@@ -42,7 +45,7 @@
                 android:id="@+id/spor"
                 android:layout_width="wrap_content"
                 android:textColor="@color/black"
-                android:text="Spor Kalori="
+                android:text="Verilen Kalori: "
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif"
@@ -90,7 +93,7 @@
                 android:id="@+id/toplamcalori"
                 android:layout_width="wrap_content"
                 android:textColor="@color/black"
-                android:text="Toplam"
+                android:text=" Değişim "
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif"

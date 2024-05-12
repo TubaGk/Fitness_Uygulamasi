@@ -50,7 +50,7 @@ public class UpdateActivity extends AppCompatActivity {
             float boy = Float.parseFloat(boyStr)/100;
             float kilo =Float.parseFloat(kiloStr);
             float sonuccp = kilo / (boy * boy);
-            String result = "Sonuç: " + String.format("%.2f", sonuccp) + "\n";
+            String result = " " + String.format("%.2f", sonuccp) + "  -> ";
             if (sonuccp < 18.5) {
                 sonuc.setText("BMI Sonucunuz: " +result + "Zayıfsınız.");
             } else if (sonuccp < 25) {

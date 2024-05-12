@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/mwp"
+    android:background="@drawable/rwp"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -20,7 +20,7 @@
         android:layout_height="170dp"
         android:background="@drawable/buttonmain"
         android:layout_margin="8dp"
-        android:src="@drawable/yycklr" />
+        android:src="@drawable/yycklr"/>
     <ImageButton
         android:id="@+id/sportImgbtn"
         android:layout_width="match_parent"
@@ -40,9 +40,9 @@
         android:layout_width="170dp"
         android:layout_height="70dp"
         android:text="Vücut Kitle İndeksi Hesapla"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginRight="5dp"
-        android:background="#F2C0C3"/>
+        android:background="#5C46DC"/>
 
 </LinearLayout>
